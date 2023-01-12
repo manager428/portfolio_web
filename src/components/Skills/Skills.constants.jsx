@@ -49,7 +49,7 @@ export const skillCat = {
 		],
 	},
 	design: {
-		categoryName: 'Design',
+		categoryName: 'Mobile',
 		percentage: 30,
 		skillList: [
 			{ name: 'Java', xp: '15 YRS', icon: javaIcon },
