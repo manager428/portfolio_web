@@ -1,48 +1,61 @@
-import reactIcon from '../../assets/images/skills/react.png';
-import htmlIcon from '../../assets/images/skills/html.png';
-import cssIcon from '../../assets/images/skills/css.png';
-import bootstrapIcon from '../../assets/images/skills/bootstrap.png';
+
+import vueIcon from '../../assets/images/skills/vue.png';
+import tsIcon from '../../assets/images/skills/ts.png';
 import dotnetIcon from '../../assets/images/skills/dotnet.png';
-import sqlIcon from '../../assets/images/skills/db.png';
+import reactIcon from '../../assets/images/skills/react.png';
 import jsIcon from '../../assets/images/skills/js.png';
 import csharpIcon from '../../assets/images/skills/csharp.png';
+import phpIcon from '../../assets/images/skills/php.png';
+import laravelIcon from '../../assets/images/skills/laravel.png';
+import wordIcon from '../../assets/images/skills/wordpress.png';
+import pythonIcon from '../../assets/images/skills/python.png';
+import djangoIcon from '../../assets/images/skills/dj.png';
+import awsIcon from '../../assets/images/skills/aws.png';
 
-import unityIcon from '../../assets/images/skills/unity.png';
-import vuforiaIcon from '../../assets/images/skills/vuforia.png';
+import solidIcon from '../../assets/images/skills/solid.png';
+import solanaIcon from '../../assets/images/skills/solana.png';
+import web3 from '../../assets/images/skills/web3.png';
 
-import psIcon from '../../assets/images/skills/ps.png';
-import figmaIcon from '../../assets/images/skills/figma.png';
+import javaIcon from '../../assets/images/skills/java.png';
+import flutterIcon from '../../assets/images/skills/flutter.png';
+import ionicIcon from '../../assets/images/skills/ionic.png';
 
 export const skillCat = {
 	web: {
 		categoryName: 'Web Dev',
 		percentage: 50,
 		skillList: [
-			{ name: 'HTML', xp: '8 YRS', icon: htmlIcon },
-			{ name: 'CSS', xp: '8 YRS', icon: cssIcon },
-			{ name: 'Javascript', xp: '4 YRS', icon: jsIcon },
-			{ name: 'Bootstrap', xp: '5 YRS', icon: bootstrapIcon },
 			{ name: 'C#', xp: '3 YRS', icon: csharpIcon },
-			{ name: 'react js', xp: '2 YRS', icon: reactIcon },
-			{ name: 'sql', xp: '2 YRS', icon: sqlIcon },
-			{ name: '.net', xp: '2 YRS', icon: dotnetIcon },
+			{ name: 'NET', xp: '2 YRS', icon: dotnetIcon },
+			{ name: 'Node', xp: '4 YRS', icon: jsIcon },
+			{ name: 'REACT', xp: '2 YRS', icon: reactIcon },
+			{ name: 'VUE', xp: '2 YRS', icon: vueIcon },
+			{ name: 'TypeScript', xp: '2 YRS', icon: tsIcon },
+			{ name: 'PHP', xp: '3 YRS', icon: phpIcon },
+			{ name: 'Laravel', xp: '2 YRS', icon: laravelIcon },
+			{ name: 'WordPress', xp: '2 YRS', icon: wordIcon },
+			{ name: 'Python', xp: '2 YRS', icon: pythonIcon },
+			{ name: 'Django', xp: '2 YRS', icon: djangoIcon },
+			{ name: 'AWS', xp: '2 YRS', icon: awsIcon },
 		],
 	},
 	game: {
-		categoryName: 'Game Dev',
+		categoryName: 'BlockChain',
 		percentage: 20,
 		skillList: [
-			{ name: 'Unity', xp: '5 YRS', icon: unityIcon },
-			{ name: 'C#', xp: '3 YRS', icon: csharpIcon },
-			{ name: 'Vuforia', xp: '3 YRS', icon: vuforiaIcon },
+			{ name: 'Solidity', xp: '5 YRS', icon: solidIcon },
+			{ name: 'Solana', xp: '3 YRS', icon: solanaIcon },
+			{ name: 'Web3', xp: '3 YRS', icon: web3 },
 		],
 	},
 	design: {
 		categoryName: 'Design',
 		percentage: 30,
 		skillList: [
-			{ name: 'Photoshop', xp: '15 YRS', icon: psIcon },
-			{ name: 'Figma', xp: '1 YR', icon: figmaIcon },
+			{ name: 'Java', xp: '15 YRS', icon: javaIcon },
+			{ name: 'Flutter', xp: '1 YR', icon: flutterIcon },
+			{ name: 'React Native', xp: '1 YR', icon: reactIcon },
+			{ name: 'Ionic', xp: '1 YR', icon: ionicIcon },
 		],
 	},
 	soft: {
